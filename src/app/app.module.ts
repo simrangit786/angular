@@ -6,7 +6,9 @@ import { AppsComponent } from './apps/apps.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { NameEditorComponent} from './name-editor/name-editor.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,15 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     AppsComponent,
     FirstComponent,
     SecondComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    NameEditorComponent
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
