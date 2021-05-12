@@ -9,6 +9,11 @@ import { SecondComponent } from './second/second.component';
 import { NameEditorComponent} from './name-editor/name-editor.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
+import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
+import { DynamicFormQuestionComponent} from './dynamic-form-question/dynamic-form-question.component';
+
+
 
 @NgModule({
   declarations: [
@@ -17,7 +22,11 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
     FirstComponent,
     SecondComponent,
     PagenotfoundComponent,
-    NameEditorComponent
+    NameEditorComponent,
+    ProfileEditorComponent,
+    DynamicFormComponent,
+    DynamicFormQuestionComponent
+    
 
   ],
   imports: [
