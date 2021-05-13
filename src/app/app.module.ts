@@ -12,6 +12,7 @@ import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { DynamicFormQuestionComponent} from './dynamic-form-question/dynamic-form-question.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -31,6 +32,7 @@ import { DynamicFormQuestionComponent} from './dynamic-form-question/dynamic-for
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule
